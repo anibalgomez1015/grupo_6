@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Open+Sans:wght@600&family=Roboto:ital@1&display=swap');
+@import url('htts://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background: #e8d8c3;
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  
+  header{
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .logo{
+    display: flex;
+  }
+  .logo img{
+    height: 50px;
+  }                                                       
+
+  h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #fff;
+    background-color: #9c7755;
+
+
+  }
+  p{
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    
+
+  }
+  footer{
+  color: rgb(3, 3, 8);
+  padding: 20px;
+  text-align: center
+
+  }
+  
+
+  .imagen{
+    text-align: center;
+    width: 550px;
+    height: 450px;
+    text-align: center;
+
+  }
+  .article-grid{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  .article-grid
+  img{
+    margin-right: 20px;
+  }
+
+ .article-grid
+ p{
+  align-items: center;
+ }
+ 
+ 
+ .hashtag
+ p{
+  font-size: 1em;
+ }
+ .footer{
+  text-align: center;
+ }
+ /* Estilos de la barra de búsqueda */
+.search-container {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: 'Roboto Slab', sans-serif;
+  margin-bottom: 50px;
+  background: #0a0a0a;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 2px;
+  font-size: 16px;
+}
+
+.search-button {
+  background: #e8d8c3;
+  color: #0a0a0a;
+  border: 2px;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover{
+  background-color: #e8d8c3;
+}
+.highlighted {
+  background-color: yellow;
+  font-weight: bold;
+}
